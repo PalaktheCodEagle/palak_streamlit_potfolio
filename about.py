@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Palak Piyush Desai", page_icon="images\P.png", layout="wide", initial_sidebar_state="auto")
+st.set_page_config(page_title="Palak Piyush Desai", page_icon="images/P.png", layout="wide", initial_sidebar_state="auto")
 
 st.subheader("About Me")
 st.html(

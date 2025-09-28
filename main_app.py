@@ -1,11 +1,10 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title="Palak Piyush Desai", page_icon="images\P.png", layout="wide", initial_sidebar_state="auto")
+st.set_page_config(page_title="Palak Piyush Desai", page_icon="images/P.png", layout="wide", initial_sidebar_state="auto")
 
 col1, col2, col3 = st.columns([1,2,2], vertical_alignment='center')
-my_logo = "images\P.png"
-
+my_logo = Image.open("images/P.png")
 with col1:
     html_code = """
     <div style="text-align: center;">
