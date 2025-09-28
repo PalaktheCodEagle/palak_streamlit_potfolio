@@ -23,7 +23,10 @@ st.html(
     ".column1{" \
     "margin-right: 30px;}" \
     "h4{" \
-    "margin: 0px 0px 15px 0px}"
+    "margin: 0px 0px 15px 0px}" \
+    "@media (min-width: 300px) and (max-width: 640px){" \
+    ".heading{" \
+    "display: block;}}"
     "</style>"
     "<div class='post_details' style='padding: 15px; border-left: 1px #43444b solid;" \
     "font-family: monospace;'>"
@@ -66,6 +69,9 @@ st.html(
     "margin-right: 30px;}" \
     "h4{" \
     "margin: 0px 0px 15px 0px}"
+    "@media (min-width: 300px) and (max-width: 640px){" \
+    ".heading{" \
+    "display: block;}}"
     "</style>"
     "<div class='post_details' style='padding: 15px; border-left: 1px #43444b solid;" \
     "font-family: monospace;'>"
@@ -106,6 +112,9 @@ st.html(
     "margin-right: 30px;}" \
     "h4{" \
     "margin: 0px 0px 15px 0px}"
+    "@media (min-width: 300px) and (max-width: 640px){" \
+    ".heading{" \
+    "display: block;}}"
     "</style>"
     "<div class='post_details' style='padding: 15px; border-left: 1px #43444b solid;" \
     "font-family: monospace;'>"
